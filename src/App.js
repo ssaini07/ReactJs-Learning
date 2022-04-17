@@ -13,12 +13,15 @@ import HookCounter from './components/HookCounter';
 import HookCounter2 from './components/HookCounter2';
 import HookCounterThree from './components/HookCounterThree';
 import HookCounterFour from './components/hookCounterFour';
+import FocusInputone from './components/FocusInputone';
+import ClassTimer from './components/ClassTimer';
+import HookTimer from './components/HookTimer';
 
 
 function App() {
     return ( < div className = "App" >
         <
-        HookCounterFour / >
+        HookTimer / >
         <
         /div>
     );
