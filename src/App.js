@@ -1,25 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import Greet from './components/Greet';
+import React from 'react';
+import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
+import FormHandling from './components/FormHandling';
+import LifecycleA from './components/LifecycleA';
+import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
+import ClassCounter from './components/ClassCounter';
+import HookCounter from './components/HookCounter';
+import HookCounter2 from './components/HookCounter2';
+import HookCounterThree from './components/HookCounterThree';
+import HookCounterFour from './components/hookCounterFour';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return ( < div className = "App" >
+        <
+        HookCounterFour / >
+        <
+        /div>
+    );
 }
 
 export default App;
